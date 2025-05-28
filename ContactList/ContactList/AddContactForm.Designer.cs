@@ -33,7 +33,11 @@
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
+
+            this.textBox2 = new System.Windows.Forms.TextBox();
+
             this.Email = new System.Windows.Forms.TextBox();
+
             this.SuspendLayout();
             // 
             // textBox1
@@ -63,6 +67,7 @@
             // 
             // button1
             // 
+
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(658, 141);
             this.button1.Name = "button1";
@@ -71,6 +76,7 @@
             this.button1.Text = "Lưu";
             this.button1.UseVisualStyleBackColor = true;
             // 
+
             // Email
             // 
             this.Email.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -79,13 +85,18 @@
             this.Email.Size = new System.Drawing.Size(100, 27);
             this.Email.TabIndex = 6;
             this.Email.Text = "Email";
+
             // 
             // AddContactForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+     
+
+
             this.Controls.Add(this.Email);
+
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox1);
@@ -102,6 +113,11 @@
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Button button1;
+
+        private System.Windows.Forms.TextBox textBox2;
+
+
         private System.Windows.Forms.TextBox Email;
+
     }
 }
